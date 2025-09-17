@@ -1,5 +1,4 @@
 def process_data(value):
-я для обработки данных - ВЕРСИЯ С БАГОМ
     if not isinstance(value, (int, float)):
         raise TypeError("Значение должно быть числом")
     
